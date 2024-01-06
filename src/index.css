@@ -4,7 +4,7 @@
 
 @layer components {
   .btn-primary {
-    @apply rounded bg-primary-600 px-5 py-2 font-bold text-white transition hover:bg-primary-800;
+    @apply rounded bg-primary-600 px-5 py-2 text-sm font-bold text-white transition hover:bg-primary-800 sm:text-base;
   }
   .header-text {
     @apply: text-2xl font-bold;

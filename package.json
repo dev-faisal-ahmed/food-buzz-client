@@ -11,6 +11,8 @@
     "pretty": "npx prettier --write ."
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@react-spring/web": "^9.7.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
