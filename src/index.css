@@ -4,6 +4,9 @@
 
 @layer components {
   .btn-primary {
-    @apply hover:bg-primary-800 bg-primary-600 rounded px-5 py-2 font-bold text-white transition;
+    @apply rounded bg-primary-600 px-5 py-2 font-bold text-white transition hover:bg-primary-800;
+  }
+  .header-text {
+    @apply: text-2xl font-bold;
   }
 }

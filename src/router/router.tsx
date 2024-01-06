@@ -1,7 +1,7 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { GlobalLayout } from '../layout/global-layout';
 import { LandingPageLayout } from '../layout/lading-page-layout';
-import { Home } from '../pages/home/home';
+import { HomePage } from '../pages/home/home-page';
 
 const routes = createBrowserRouter([
   {
@@ -14,7 +14,7 @@ const routes = createBrowserRouter([
         children: [
           {
             path: '/',
-            element: <Home />,
+            element: <HomePage />,
           },
         ],
       },
