@@ -7,7 +7,7 @@ import {
   Content,
 } from '@radix-ui/react-dialog';
 import { Logo } from '../logo';
-import { NavLinksData } from '../../../data/nav-links';
+import { NavLinksData } from '../../../data/links/links';
 import { Link } from 'react-router-dom';
 import { useTransition, animated } from '@react-spring/web';
 import { useState } from 'react';

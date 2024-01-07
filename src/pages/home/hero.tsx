@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Container } from '../../components/ui/container';
-import { ImagesData } from '../../data/images-data';
+import { ImagesData } from '../../data/shared/images-data';
 
 export function Hero() {
   return (

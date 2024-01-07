@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Container } from '../../components/ui/container';
-import { Foods } from '../../data/food-data';
+import { Foods } from '../../data/shared/food-data';
 import { FoodCard } from '../../components/shared/food-card/food-card';
 
 export function PopularFoods() {

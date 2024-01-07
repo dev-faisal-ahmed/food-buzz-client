@@ -2,7 +2,7 @@ import { twMerge } from 'tailwind-merge';
 import { Link, useLocation } from 'react-router-dom';
 import { Container } from '../../ui/container';
 import { Logo } from '../logo';
-import { NavLinksData } from '../../../data/nav-links';
+import { NavLinksData } from '../../../data/links/links';
 import { NavLink } from './nav-link';
 import { MobileNavItems } from './mobile-nav-items';
 
